@@ -1788,6 +1788,7 @@ form{
   .footer-links-contact{
     display: block;
     margin-left: 5%;
+    width: 90%;
   }
   .footer-links-contact>li{
     font-size: 15px;
