@@ -437,7 +437,7 @@ li>a{
 }
 footer{
   width: 100vw;
-  height: 300px;
+  height: 400px;
   z-index: 10000;
   display: flex;
   flex-direction: column;
@@ -449,60 +449,6 @@ footer{
   background-color: rgba(16, 30, 160, 0.904);
   gap: 15px 30px;
 }
-.footer-nadpis{
-  color: white;
-  font-family: "Poppins";
-  font-size: 3rem;
-}
-.footer-links{
-  display: flex;
-  justify-content: space-around;
-  color: rgb(161, 161, 161);
-  text-decoration: none;
-  width: 100%;
-  
-}
-.footer-links>a{
-  text-decoration: none;
-}
-.footer-links>a>p{
-  color: rgb(161, 161, 161);
-  text-decoration: none;
-  display: flex;
-  width: 200%;
-  font-size: 22px;
-  font-family: "Poppins";
-}
-.footer-links>a>p:hover{
-  transition: 1s;
-  color: white;
-}
-
-.footer-logo{
-  width: 10%;
-  height: 150px;
-}
-.footer-links-contact{
-  display: flex;
-  gap:30%;
-  text-align: center;
-  justify-content: center;
-  color: white;
-  width: 100%;
-  font-size: 25px;
-  font-family: "Poppins";
-  
-}
-.footer-links-contact>li{
-  letter-spacing: 2px;
-}
-.copy-r{
-  color:white;
-  letter-spacing: 2px;
-  font-family: "Poppins";
-}
-
-
 
 .kontakt-telo{
   height: 500px;
@@ -530,6 +476,9 @@ footer{
 form{
   margin-top: 20px;
 }
+form>input{
+  padding-top: 35px;
+}
 .kontakt-forma form input[type="email"]{
     outline: none;
     border: none;
@@ -556,6 +505,7 @@ form{
   margin-top: 5px;
   border: none;
   border-bottom: 2px solid rgb(0, 0, 0);
+  padding-top: 35px;
   padding-left: 10px;
   padding-bottom: 10px;
   resize: both;
@@ -571,6 +521,7 @@ form{
   margin-top: 5px;
   border: none;
   margin-left: 15%;
+  padding-top: 35px;
   border-bottom: 2px solid rgb(0, 0, 0);
   padding-left: 10px;
   padding-bottom: 10px;
@@ -610,9 +561,10 @@ form{
     width: 50%;
     height:60px;
     border: none;
+    padding-top: 0;
     font-size: 20px;
     margin-left:25%;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 20px;
     cursor: pointer;
     color: white;
@@ -649,6 +601,9 @@ form{
       font-size: 20px;
   
     }
+    .number{
+      font-size: 20px;
+    }
     .nadpis-ponuka{
       margin-top: 50px;
     }
@@ -666,6 +621,7 @@ form{
     }
     .kontakt-forma form input[type="email"]{
       height: 20px;
+      font-size: 20px;
     }
     .number{
       height: 20px;
@@ -754,12 +710,8 @@ form{
   .nav-menu.active{
     left: 0;
   }
-  .priezvisko{
-    font-size: 15px;
-  
-  }
-  .meno{
-    font-size: 15px;
+  form>input{
+    padding-top: 15px;
   }
   .nav-nadpis{
     margin: 0;
@@ -811,33 +763,33 @@ form{
     font-size: 60px;
     margin-top: 50px;
   }
-  .footer-logo{
-    height: 120px;
-  }
+
   footer{
     height: 280px;
   }
-  .footer-links-contact{
-    font-size: 20px;
-  }
+
   .kontakt-forma{
     margin-top: 150px;
     height: 300px;
   }
   .kontakt-forma form input[type="email"]{
-    height: 15px;
+    height: 25px;
     font-size: 13px;
   }
   .number{
-    height: 15px;
-    font-size: 13px;
+    height: 25px;
+    font-size: 15px;
   }
   .meno{
-    height: 15px;
+    height: 25px;
+    font-size: 15px;
     width: 29.5%;
+    padding-top: 20px;
   }
   .priezvisko{
-    height: 15px;
+    height: 25px;
+    padding-top: 20px;
+    font-size: 15px;
     width: 29.5%;
     
   }
@@ -881,21 +833,11 @@ form{
   .nadpis-zamestnanci{
     font-size: 40px;
   }
-  .footer-logo{
-    height: 100px;
-  }
+
   footer{
     height: 220px;
   }
-  .footer-links>a>p{
-    font-size: 15px;
-  }
-  .footer-links-contact{
-    font-size: 15px;
-  }
-  .copy-r{
-    font-size: 10px;
-  }
+
   .ponuka-obrazok{
     height: 220px;
   }
@@ -955,11 +897,11 @@ form{
   }
   .kontakt-forma form input[type="submit"]{
     width: 40%;
-    height:30px;
+    height:35px;
     border: none;
     font-size: 10px;
     margin-left:30%;
-    margin-top: 10px;
+    margin-top: 25px;
     border-radius: 20px;
     cursor: pointer;
     color: white;
@@ -1075,7 +1017,7 @@ form{
     border: none;
     font-size: 12px;
     margin-left:30%;
-    margin-top: 5px;
+    margin-top: 25px;
     border-radius: 20px;
     cursor: pointer;
     color: white;
@@ -1132,9 +1074,7 @@ form{
   .nadpis-zamestnanci{
     margin-top: -140px;
   }
-  .footer-logo{
-    height: 80px;
-  }
+
   footer{
     height: 200px;
   }
@@ -1195,7 +1135,7 @@ form{
   }
   .kontakt-forma form input[type="submit"]{
     width: 40%;
-    height:30px;
+    height:45px;
     border: none;
     font-size: 14px;
     margin-left:30%;
@@ -1353,15 +1293,7 @@ form{
   .nadpis-zamestnanci{
     margin-top: 0px;
   }
-  .footer-logo{
-    height: 65px;
-  }
-  .footer-links-contact{
-    font-size: 11px;
-  }
-  .footer-links>a>p{
-    font-size: 10px;
-  }
+
   footer{
     height: 170px;
   }
@@ -1405,11 +1337,11 @@ form{
   }
   .kontakt-forma form input[type="submit"]{
     width: 40%;
-    height:30px;
+    height:40px;
     border: none;
     font-size: 12px;
     margin-left:30%;
-    margin-top: 15px;
+    margin-top: 25px;
 
     border-radius: 20px;
     cursor: pointer;
@@ -1543,25 +1475,6 @@ form{
   .head-logo{
     height: 45px;
   }
-  .footer-logo{
-    height: 50px;
-    margin-bottom: -15px;
-  }
-  .footer-links-contact{
-    font-size: 9px;
-  }
-  .footer-links>a>p{
-    font-size: 9px;
-    margin-top: 0;
-    margin-left: 0;
-  }
-  .footer-links{
-    height: 9px;
-    
-  }
-  .copy-r{
-    font-size: 7px;
-  }
   footer{
     height: 120px;
   }
@@ -1573,6 +1486,11 @@ form{
   }
 }
 @media(max-width: 441px){
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
   .parallax{
     height: 580px;
   }
@@ -1624,11 +1542,11 @@ form{
   }
   .kontakt-forma form input[type="submit"]{
     width: 40%;
-    height:30px;
+    height:40px;
     border: none;
     font-size: 11px;
     margin-left:30%;
-    margin-top: 15px;
+    margin-top: 25px;
 
     border-radius: 20px;
     cursor: pointer;
@@ -1764,63 +1682,32 @@ form{
     display: block;
     
   }
-  .footer-logo{
-    width: 30%;
-    height: 120px;
-    margin-left: 55%;
-    margin-top: 30px;
-    position: absolute;
-   
+  .head-logo{
+    width: 15%;
   }
-  .footer-links{
-    display: block;
-    height: 170px;
-    width: 100%;
-    padding-top: 10px;
-
-  }
-  .footer-links>a>p{
-    font-size: 20px;
-    width: 50%;
-    margin-top: 10px;
-    margin-left: 5%;
-  }
-  .footer-links-contact{
-    display: block;
-    margin-left: 5%;
-    width: 90%;
-  }
-  .footer-links-contact>li{
-    font-size: 15px;
-    text-align: left;
-    
-  }
-  .copy-r{
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-    font-size: 150x;
+  .nav-nadpis{
+    margin-left: -5%;
   }
 
 }
 @media(max-width: 371px){
   .kontakt-forma form input[type="email"]{
     height: 30px;
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 0;
     padding-left: 0;
     width: 70%;
   }
   .number{
     height: 30px;
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 0;
     padding-left: 0;
     width: 70%;
   }
   .meno{
     height: 30px;
-    font-size: 16px;
+    font-size: 15px;
     width: 29%;
     padding-bottom: 0;
     padding-left: 0;
@@ -1828,7 +1715,7 @@ form{
   }
   .priezvisko{
     height: 30px;
-    font-size: 16px;
+    font-size: 15px;
     width: 29%;
     margin-top: 5px;
     padding-bottom: 0;
@@ -1849,11 +1736,11 @@ form{
   }
   .kontakt-forma form input[type="submit"]{
     width: 40%;
-    height:30px;
+    height:40px;
     border: none;
     font-size: 11px;
     margin-left:30%;
-    margin-top: 15px;
+    margin-top: 25px;
 
     border-radius: 20px;
     cursor: pointer;
