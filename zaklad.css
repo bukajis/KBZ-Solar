@@ -1804,5 +1804,160 @@ form{
 
 }
 @media(max-width: 371px){
-  
+  .kontakt-forma form input[type="email"]{
+    height: 30px;
+    font-size: 16px;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 70%;
+  }
+  .number{
+    height: 30px;
+    font-size: 16px;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 70%;
+  }
+  .meno{
+    height: 30px;
+    font-size: 16px;
+    width: 29%;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 32.5%;
+  }
+  .priezvisko{
+    height: 30px;
+    font-size: 16px;
+    width: 29%;
+    margin-top: 5px;
+    padding-bottom: 0;
+    padding-left: 0;
+    width: 32.5%;
+  }
+  .kontakt-forma{
+    height: 255px;
+    width: 70%;
+    margin-left:15% ;
+    margin-top: 80px;
+  }
+  .kontakt-opis{
+    font-size: 15px;
+    padding-top: 20px;
+    
+
+  }
+  .kontakt-forma form input[type="submit"]{
+    width: 40%;
+    height:30px;
+    border: none;
+    font-size: 11px;
+    margin-left:30%;
+    margin-top: 15px;
+
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    background-color:  rgba(16, 30, 160, 0.904);
+    transition: background-color 300ms ease-in-out,box-shadow 300ms ease-in-out;
+  }
+  .nadpis-body{
+    font-size: 22px;
+  }
+  .parallax2{
+    height: 1100px;
+  }
+  .nadpis-vyhody{
+    font-size: 25px;
+  }
+  .vyhody{
+    height: 400px;
+    margin-top: -480px;
+  }
+  .vyhoda-1{
+    height: 190px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .vyhoda-2{
+    height: 190px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .vyhoda-3{
+    height: 190px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .vyhoda-4{
+    height: 190px;
+    width: 50%;
+    margin-left: 25%;
+  }
+  .vyhody-obrazky{
+    height: 85px;
+    margin-top: 30px;
+  }
+  .text-vyhody{
+    font-size: 14px;
+  }
+  #domček{
+    height: 110px;
+    margin-top: 10px;
+  }
+  .ponuka{
+    margin-top: 20px;
+    height: 1040px;
+
+  }
+  .ponuka-1{
+    width: 100%;
+    height: 270px;
+  }
+  .ponuka-2{
+    height: 270px;
+  }
+
+  .ponuka-3{
+    height: 270px;
+  }
+  .parallax3{
+    height: 1050px;
+  }
+  .ponuka-obrazok{
+    height: 145px;
+  }
+  .link-ponuky{
+    width: 50%;
+    margin-left: 25%;
+    height: 270px;
+  }
+  .nadpis-ponuky{
+    font-size: 14px;
+  }
+  .nadpis-ponuka{
+    font-size: 30px;
+    margin-top: 40px;
+  }
+  .text-ponuky{
+    font-size: 13px;
+  }
+  .nadpis-onas{
+    font-size: 19px;
+  }
+  #zamestnanec-1{
+    height: 120px;
+  }
+  #zamestnanec-2{
+    height: 120px;
+  }
+  #zamestnanec-3{
+    height: 120px;
+  }
+  #zamestnanec-4{
+    height: 120px;
+  }
+  #zamestnanec-5{
+    height: 120px;
+  }
 }
