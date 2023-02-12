@@ -160,6 +160,32 @@ li>a{
   color: white;
   gap: 5%;
   text-align: center;
+} 
+.link-body{
+  height: 70px;
+  width: 30%;
+  margin-top: 100px;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-left: 30%;
+}
+.body-tlacitko{
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins";
+  background: rgb(38, 252, 38);
+  border-radius: 30px;
+}
+.body-tlacitko>p{
+  text-decoration: none;
+  color: white;
+  padding-top: 18px;
+  font-size: 25px;
+}
+.uvod-body{
+  width:60%;
+  height:100%;
 }
 .nadpis-body{
   font-size: 60px;
@@ -167,7 +193,7 @@ li>a{
   margin-left: 9.3%;
   margin-top: 200px;
   width: 100%;
-  height: 100px;
+  height: 300px;
   text-align: left;
   text-shadow: 0px 2px 10px black;
 }
@@ -423,6 +449,9 @@ li>a{
   margin-top: 58px;
 }
 }
+.link-body{
+  margin-top: 50px;
+}
 .zamestnanci{
   display: flex;
   height: 260px;
@@ -504,6 +533,11 @@ footer{
   display: flex;
   flex-direction: column;
 }
+.ikonky{
+  width: 80%;
+  height: 50px;
+  display: flex;
+}
 #footer-link-tlacitko{
   text-decoration: none;
   height: 70px;
@@ -521,11 +555,19 @@ footer{
   color:white ;
   font-family: "Poppins";
 }
+#footer-citko:hover{
+  background: rgb(0, 4, 248);
+}
 #footer-citko>p{
   padding-top: 20px;
  
 }
 .link-ikona{
+  margin-top: 20px;
+  width: 20%;
+  height: 50px;
+}
+.link-ikona-2{
   margin-top: 20px;
   width: 20%;
   height: 50px;
@@ -543,7 +585,7 @@ footer{
 .kontakt-telo{
   height: 500px;
   display: grid;
-  width: 50%;
+  width: 30%;
   margin-right: 10%;
   color: black;
   font-family: "Poppins";
@@ -671,6 +713,9 @@ form>input{
     .vyhody-obrazky{
       height: 150px;
     }
+    .link-body{
+      margin-top: 10px;
+    }
     #domček{
       height: 150px;
     }
@@ -753,6 +798,9 @@ form>input{
   .nadpis-body{
     font-size: 50px;
   }
+  .link-body{
+    margin-top: 0;
+  }
   .link-ponuky{
    
     height: 500px;
@@ -782,6 +830,15 @@ form>input{
   
 }
 @media(max-width: 1200px){
+  .link-body{
+    font-size: 15px;
+  }
+  .nadpis-body{
+    height: 220px;
+  }
+  .body-tlacitko>p{
+    font-size: 20px;
+  }
   .hamburger{
     display: block;
   }
@@ -822,6 +879,7 @@ form>input{
     height: 115px;
     margin-top: 10px;
   }
+
   .vyhody{
     height: 230px;
   }
@@ -859,6 +917,7 @@ form>input{
     font-size: 60px;
     margin-top: 50px;
   }
+
   #footer-logo{
     height: 120px;
   }
@@ -933,6 +992,16 @@ form>input{
 @media(max-width: 1050px){
   .zamestnanci{
     height: 150px;
+  }
+  .link-body{
+    height: 50px;
+  }
+  .body-tlacitko>p{
+    font-size: 16px;
+    padding-top: 12px;
+  }
+  .nadpis-body{
+    height: 200px;
   }
   .nadpis-zamestnanci{
     font-size: 40px;
@@ -1218,15 +1287,23 @@ form>input{
   *{transition: 0s;}
   .parallax{
     display: block;
-    height: 600px;
+    height:700px;
   }
+
   .nav-nadpis{
     margin-left: -5%;
+  }
+  .uvod-body{
+    width: 100%;
+    height: 300px;
+  }
+  .link-body{
+    margin-left: 35%;
   }
   .nadpis-body{
     font-size: 30px;
     width: 100%;
-    height: 70px;
+    height: 150px;
     text-align: center;
     margin-left: 0%;
     margin-top: 0px;
@@ -1487,8 +1564,15 @@ form>input{
     margin-top: 10px;
     width: 7%;
     height: 25px;
-    margin-left: 40%;
+    margin-left: 47%;
   }
+  .link-ikona-2{
+    margin-top: 10px;
+    width: 7%;
+    height: 25px;
+    margin-left: 2%;
+  }
+
   .copy-r{
     font-size: 15px;
   }
@@ -1496,10 +1580,10 @@ form>input{
 }
 @media(max-width: 534px){
   .parallax{
-    height: 570px;
+    height: 650px;
   }
   .kontakt-forma{
-    margin-top: 100px;
+    margin-top: 50px;
     height: 230px;
     width: 50%;
     margin-left: 25%;
@@ -1701,7 +1785,11 @@ form>input{
     overflow-x: hidden;
   }
   .parallax{
-    height: 580px;
+    height:700px;
+  }
+  .link-body{
+    width: 40%;
+    margin-left: 30%;
   }
   .nadpis-body{
     font-size: 25px;
