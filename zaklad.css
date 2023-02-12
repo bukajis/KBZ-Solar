@@ -403,20 +403,20 @@ li>a{
   font-size: 40px;
   color:black;
   font-family: "Poppins";
-  text-shadow: 0px 2px 10px white;
+  text-shadow: 0px 2px 10px rgb(95, 255, 80);
   text-align: center;
 }
 .text-onas{
   font-size: 100px;
   color:black;
   font-family: "Poppins";
-  text-shadow: 0px 2px 10px white;
+  text-shadow: 0px 2px 10px rgb(95, 255, 80);
 }
 .text-onas-special{
   font-size: 100px;
   color:black;
   font-family: "Poppins";
-  text-shadow: 0px 2px 10px white;
+  text-shadow: 0px 2px 10px rgb(95, 255, 80);
 }
 @media(max-width: 1733px){
 .text-onas-special{
@@ -437,17 +437,106 @@ li>a{
 }
 footer{
   width: 100vw;
-  height: 400px;
+  height: 350px;
   z-index: 10000;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  overflow: hidden;
   justify-content: flex-end;
  
   bottom: 0px;
   background-color: rgba(16, 30, 160, 0.904);
   gap: 15px 30px;
+}
+.footer-main{
+  height: 300px;
+  gap:2%;
+  margin-bottom: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction:row ;
+}
+.footer-logo{
+  width: 25%;
+}
+#footer-logo{
+  width: 40%;
+  height: 150px;
+  margin-top: 90px;
+  margin-left: 40%;
+}
+.footer-info{
+  width:55%;
+  color: white;
+  font-family: "Poppins";
+  text-shadow: 0px 2px 10px black;
+  font-size: 15px;
+}
+.footer-info>p{
+  margin-top: 70px;
+}
+.footer-dvujka{
+  width: 40%;
+  display: flex;
+}
+.footer-nav{
+  width: 40%;
+  font-family: "Poppins";
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 2px 10px black;
+}
+.footer-link{
+  color: white;
+  font-family: "Poppins";
+  font-size: 18px;
+  text-decoration:underline;
+  text-shadow: 0px 2px 10px black;
+}
+.footer-nav>p{
+  margin-top: 40px;
+}
+.footer-tlacidlo{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+}
+#footer-link-tlacitko{
+  text-decoration: none;
+  height: 70px;
+  width: 80%;
+  border-radius: 30px;
+  margin-top: 100px;
+}
+#footer-citko{
+  height: 100%;
+  width: 100%;
+  background: rgb(38, 252, 38);
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+  color:white ;
+  font-family: "Poppins";
+}
+#footer-citko>p{
+  padding-top: 20px;
+ 
+}
+.link-ikona{
+  margin-top: 20px;
+  width: 20%;
+  height: 50px;
+}
+#fac{
+  width: 100%;
+}
+.copy-r{
+  width: 100%;
+  font-size: 20px;
+  color:white;
+  text-align: center;
 }
 
 .kontakt-telo{
@@ -644,8 +733,11 @@ form>input{
       color: white;
       background-color:  rgba(16, 30, 160, 0.904);
       transition: background-color 300ms ease-in-out,box-shadow 300ms ease-in-out;
-    
-}}
+    }
+    #footer-logo{
+      height: 120px;
+    }
+  }
 @media(max-width: 1440px){
   
   .nav-nadpis{
@@ -691,6 +783,9 @@ form>input{
 @media(max-width: 1200px){
   .hamburger{
     display: block;
+  }
+  .footer-logo{
+    width: 30%;
   }
   .nav-menu{
     position: fixed;
@@ -763,11 +858,16 @@ form>input{
     font-size: 60px;
     margin-top: 50px;
   }
-
-  footer{
-    height: 280px;
+  #footer-logo{
+    height: 120px;
   }
-
+  .footer-logo{
+    height: 120px;
+    margin-top: 0px;
+  }
+  .footer-dvujka{
+    width: 55%;
+  }
   .kontakt-forma{
     margin-top: 150px;
     height: 300px;
@@ -833,11 +933,19 @@ form>input{
   .nadpis-zamestnanci{
     font-size: 40px;
   }
-
-  footer{
-    height: 220px;
+  #footer-citko>p{
+    padding-top: 25px;
+   
   }
-
+  .footer-main{
+    width: 90%;
+    margin-left: 5%;
+  }
+  #footer-citko{
+    
+    font-size: 15px;
+   
+  }
   .ponuka-obrazok{
     height: 220px;
   }
@@ -985,6 +1093,9 @@ form>input{
   .nadpis-body{
     font-size: 30px;
   }
+  #footer-logo{
+    height: 90px;
+  }
   .kontakt-forma{
     margin-top: 150px;
     height: 220px;
@@ -1075,8 +1186,21 @@ form>input{
     margin-top: -140px;
   }
 
-  footer{
-    height: 200px;
+  .footer-main{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .footer-info{
+    font-size: 13px;
+  }
+  .footer-nav{
+    font-size: 13px;
+  }
+  #footer-link-tlacitko{
+    height: 45px;
+  }
+  #footer-citko>p{
+    padding-top:10px ;
   }
   .head-logo{
     width: 9%;
@@ -1295,7 +1419,70 @@ form>input{
   }
 
   footer{
-    height: 170px;
+    height: 600px;
+  }
+  .footer-main{
+    height: 530px;
+    display: block;
+    margin-top: 0;
+    padding-top: 0;
+  }
+  #footer-logo{
+    margin-top: 5px;
+    width: 20%;
+    margin-left: 40%;
+    height: 120px;
+  }
+  .footer-logo{
+    width: 100%;
+    height:120px;
+  }
+  .footer-dvujka{
+    width: 100%;
+    gap: 5%;
+    
+  }
+  .footer-info>p{
+    margin-top: 30px;
+  }
+  .footer-info{
+    font-size: 17px;
+    width: 42.5%;
+    margin-left: 17%;
+  }
+  .footer-nav{
+    font-size: 17px;
+    width: 30%;
+  }
+  .footer-nav>p{
+    margin-top: 10px;
+  }
+  .footer-tlacidlo{
+    height: 150px;
+    width: 100%;
+  }
+  #footer-link-tlacitko{
+    margin-top: 10px;
+    height: 60px;
+    width: 25%;
+    margin-left: 37.5%;
+  }
+  #footer-citko{
+    height: 100%;
+    width: 100%;
+  }
+  #footer-citko>p{
+    padding-top: 15px;
+    font-size: 17px;
+  }
+  .link-ikona{
+    margin-top: 10px;
+    width: 7%;
+    height: 25px;
+    margin-left: 40%;
+  }
+  .copy-r{
+    font-size: 15px;
   }
 
 }
@@ -1476,7 +1663,21 @@ form>input{
     height: 45px;
   }
   footer{
-    height: 120px;
+    height: 600px;
+  }
+  .footer-info{
+    margin-left: 13%;
+    width: 55%;
+  }
+  #footer-link-tlacitko{
+    width: 30%;
+    margin-left: 35%;
+  }
+  .footer-dvujka{
+    width: 90%;
+  }
+  #footer-logo{
+    height: 100px;
   }
   .nadpis-vyhody{
     font-size: 30px;
@@ -1677,13 +1878,49 @@ form>input{
   .parallax4{
     height: 1250px;
   }
-  footer{
-    height: 270px;
-    display: block;
-    
+  .footer-info{
+    font-size: 12px;
+    width: 70%;
+    margin-top: 4px;
+  }
+  .footer-nav{
+    font-size: 10px;
+    margin-top: 0px;
+  }
+  .footer-logo{
+    height: 100px;
+    margin-top: 0px;
+  }
+  #footer-logo{
+    height: 80px;
+    margin-top: 0px;
+  }
+  .footer-link{
+    font-size: 12px;
+  }
+  #footer-link-tlacitko{
+    width: 30%;
+    height: 50px;
+    margin-left: 35%;
+  }
+  #footer-citko>p{
+    padding-top: 15px;
+    font-size: 14px;
   }
   .head-logo{
     width: 15%;
+  }
+  footer{
+    height: 470px;
+  }
+  .copy-r{
+    font-size: 12px;
+  }
+  .footer-main{
+    height: 420px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   .nav-nadpis{
     margin-left: -5%;
