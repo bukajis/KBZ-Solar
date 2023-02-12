@@ -862,6 +862,9 @@ form>input{
   #footer-logo{
     height: 120px;
   }
+  .footer-main{
+    margin-left: 0%;
+  }
   .footer-logo{
     height: 120px;
     margin-top: 0px;
@@ -1088,6 +1091,10 @@ form>input{
   }
   .nav-menu.active{
     top:70px;
+  }
+  .footer-main{
+    width: 100%;
+    margin-left: 0%;
   }
 }
 @media(max-width: 860px){
