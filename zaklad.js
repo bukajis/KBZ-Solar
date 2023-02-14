@@ -17,8 +17,8 @@ let previousPosition = window.pageYOffset;
 window.onscroll = function() {
   let currentPosition = window.pageYOffset;
   if (currentPosition > previousPosition) {
-    menu.style.transition = 'all 0.7s ease';
-    menu.style.transform = 'translateY(-500%)';
+    menu.style.transition = 'all 0.4s ease';
+    menu.style.transform = 'translateY(-100%)';
   } else {
     menu.style.transition = 'all 0.3s ease';
     menu.style.transform = 'translateY(0%)';
