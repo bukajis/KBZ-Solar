@@ -1286,7 +1286,7 @@ form>input{
 @media(max-width: 695px){
   *{
     transition: 0s;
-    overflow: hidden;
+    
   }
   .parallax{
     display: block;
@@ -1316,6 +1316,7 @@ form>input{
   }
   .kontakt-telo{
     width: 100%;
+    overflow: hidden;
   }
 
   .kontakt-forma{
