@@ -1288,6 +1288,7 @@ form>input{
   .parallax{
     display: block;
     height:700px;
+     overflow: hidden;
   }
 
   .nav-nadpis{
@@ -1366,6 +1367,7 @@ form>input{
   }
   .parallax2{
     height: 1600px;
+     overflow: hidden;
   }
   .vyhoda-1{
     height: 300px;
@@ -1425,6 +1427,7 @@ form>input{
   }
   .parallax3{
     height: 1340px;
+    overflow: hidden;
   }
   .link-ponuky{
     width: 50%;
@@ -1449,6 +1452,7 @@ form>input{
   }
   .parallax4{
     height: 2200px;
+     overflow: hidden;
   }
   .onas-1{
     width: 100%;
