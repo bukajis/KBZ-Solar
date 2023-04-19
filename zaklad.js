@@ -12,6 +12,7 @@ document.querySelectorAll(".nav-links").forEach(n=>n.addEventListener("click", (
 }))
 
 
+
 function openFullscreenImage(imgId) {
   var elem = document.getElementById(imgId);
   if (elem.requestFullscreen) {
