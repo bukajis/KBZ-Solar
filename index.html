@@ -25,16 +25,16 @@
     <a class="nav-nadpis" href="#">KBZ Solar</a>
     <ul class="nav-menu">
       <li class="nav-item">
-        <a href="index.html" class="nav-links" id="uvod">Úvod</a>
+        <a href="index.html #Uvod" class="nav-links" id="uvod">Úvod</a>
       </li>
       <li class="nav-item">
-        <a href="index.html#vyhody" class="nav-links">Výhody</a>
+        <a href="index.html #vyhody" class="nav-links">Výhody</a>
       </li>
    <!--    <li class="nav-item">
-        <a href="index.html#ponuka" class="nav-links">Ponuka</a>
+        <a href="index.html #ponuka" class="nav-links">Ponuka</a>
       </li> --> 
       <li class="nav-item">
-        <a href="index.html#onas" class="nav-links" >O nás</a>
+        <a href="index.html #onas" class="nav-links" >O nás</a>
       </li>
       <li class="nav-item">
         <a href="kontakt.html" class="nav-links" >Kontakt</a>
@@ -186,33 +186,32 @@
 <div class="parallax5">
   <div class="Nadpis-prace" data-aos="fade-up">Naše práce</div>
   <div class="container" data-aos="fade-right">
-		<div class="slider">
-			<div class="slide">
-				<img src="https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1600">
-			</div>
-			<div class="slide">
-				<img src="https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=1600">
-			</div>
-			<div class="slide">
-				<img src="https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1600">
-			</div>
-			<div class="slide">
-				<img src="https://images.pexels.com/photos/1599819/pexels-photo-1599819.jpeg?auto=compress&cs=tinysrgb&w=1600">
-			</div>
-      <div class="slide">
-				<img src="https://images.pexels.com/photos/14422550/pexels-photo-14422550.jpeg?auto=compress&cs=tinysrgb&w=1600">
-			</div>
-      <div class="slide">
-				<img src="https://images.pexels.com/photos/23763/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1600">
-			</div>
-      <div class="slide">
-				<img src="https://images.pexels.com/photos/6572421/pexels-photo-6572421.jpeg?auto=compress&cs=tinysrgb&w=1600">
-			</div>
-		</div>
-		<button class="prev">&#10094;</button>
-		<button class="next">&#10095;</button>
-	</div>
-
+    <div class="slider">
+      <div class="slide" onclick="openFullscreenImage('img1')" id="img1">
+        <img src="https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1600" >
+      </div>
+      <div class="slide" onclick="openFullscreenImage('img2')" id="img2">
+        <img src="https://images.pexels.com/photos/159397/solar-panel-array-power-sun-electricity-159397.jpeg?auto=compress&cs=tinysrgb&w=1600">
+      </div>
+      <div class="slide" onclick="openFullscreenImage('img3')" id="img3">
+        <img src="https://images.pexels.com/photos/433308/pexels-photo-433308.jpeg?auto=compress&cs=tinysrgb&w=1600">
+      </div>
+      <div class="slide" onclick="openFullscreenImage('img4')" id="img4">
+        <img src="https://images.pexels.com/photos/1599819/pexels-photo-1599819.jpeg?auto=compress&cs=tinysrgb&w=1600">
+      </div>
+      <div class="slide" onclick="openFullscreenImage('img5')" id="img5">
+        <img src="https://images.pexels.com/photos/14422550/pexels-photo-14422550.jpeg?auto=compress&cs=tinysrgb&w=1600">
+      </div>
+      <div class="slide" onclick="openFullscreenImage('img6')" id="img6">
+        <img src="https://images.pexels.com/photos/23763/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1600">
+      </div>
+      <div class="slide" onclick="openFullscreenImage('img7')" id="img7">
+        <img src="https://images.pexels.com/photos/6572421/pexels-photo-6572421.jpeg?auto=compress&cs=tinysrgb&w=1600"  >
+      </div>
+    </div>
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
 	<script>
 		var slider = document.querySelector('.slider');
 		var slides = document.querySelectorAll('.slide');
