@@ -1946,8 +1946,38 @@ form{
   .copy-r{
     font-size: 15px;
   }
-
+  .parallax{
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:none;
+  }
+  .parallax2{
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:none;
+  }
+  .parallax3{
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:none;
+  }
+  .parallax4{
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:none;
+  }
+  .parallax5{
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:none;
+  }
 }
+
 @media(max-width: 534px){
   .parallax{
     height: 650px;
@@ -1958,6 +1988,7 @@ form{
     width: 50%;
     margin-left: 25%;
   }
+
   form{
     margin-top: 5px;
   }
