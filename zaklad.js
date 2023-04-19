@@ -11,20 +11,6 @@ document.querySelectorAll(".nav-links").forEach(n=>n.addEventListener("click", (
     navMenu.classList.remove("active");
 }))
 
-const menu = document.querySelector('.menu');
-let previousPosition = window.pageYOffset;
-
-window.onscroll = function() {
-  let currentPosition = window.pageYOffset;
-  if (currentPosition > previousPosition) {
-    menu.style.transition = 'all 0.7s ease';
-    menu.style.transform = 'translateY(-500%)';
-  } else {
-    menu.style.transition = 'all 0.3s ease';
-    menu.style.transform = 'translateY(0%)';
-  }
-  previousPosition = currentPosition;
-};
 
 function openFullscreenImage(imgId) {
   var elem = document.getElementById(imgId);
