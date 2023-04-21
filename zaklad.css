@@ -1650,11 +1650,32 @@ form{
   }
 
 }
+@media(max-width: 696px){
+    .parallax{
+        background-attachment: initial;
+    }
+    .parallax2{
+        background-attachment: initial;
+    }
+    .parallax3{
+        background-attachment: initial;
+    }
+    .parallax4{
+        background-attachment: initial;
+    }
+    .parallax5{
+        background-attachment: initial;
+    }
+}
 @media(max-width: 695px){
   *{transition: 0s;}
   .parallax{
     display: block;
     height:700px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
   }
 
   .nav-nadpis{
@@ -1733,6 +1754,7 @@ form{
   }
   .parallax2{
     height: 1600px;
+    background-attachment: initial;
   }
   .vyhoda-1{
     height: 300px;
@@ -1792,6 +1814,10 @@ form{
   }
   .parallax3{
     height: 1340px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
   }
   .link-ponuky{
     width: 50%;
@@ -1816,6 +1842,10 @@ form{
   }
   .parallax4{
     height: 2200px;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: initial;
   }
   .onas-1{
     width: 100%;
@@ -1946,41 +1976,13 @@ form{
   .copy-r{
     font-size: 15px;
   }
-  .parallax{
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:none;
-  }
-  .parallax2{
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:none;
-  }
-  .parallax3{
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:none;
-  }
-  .parallax4{
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:none;
-  }
-  .parallax5{
-    background-position: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment:none;
-  }
+
 }
 
 @media(max-width: 534px){
   .parallax{
     height: 650px;
+    background-attachment: initial;
   }
   .kontakt-forma{
     margin-top: 50px;
