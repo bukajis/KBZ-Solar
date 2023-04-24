@@ -545,11 +545,12 @@ video{
 }
 .container {
   width: 750px;
-  margin-left: 30%;
+  justify-content: center;
   height: 600px;
   position: relative;
   overflow: hidden;
   margin-top: 10px;
+  margin: 0 auto;
 }
 .slider {
   width:750px;
@@ -609,24 +610,9 @@ video{
   width: 100vw;
   height: auto;
 }
-@media(max-width: 1700px){
-  .container{
-    margin-left: 28%;
-  } 
-}
-@media(max-width: 1500px){
-  .container{
-    margin-left: 25%;
-  } 
-}
-@media(max-width: 1300px){
-  .container{
-    margin-left: 20%;
-  } 
-}
+
 @media(max-width: 1150px){
   .container{
-    margin-left: 18%;
     width: 700px;
     height: 500px;
     margin-top:0px;
@@ -640,21 +626,21 @@ video{
 }
 @media(max-width: 1000px){
   .container{
-    margin-left: 16%;
+
     width: 700px;
   } 
 
 }
 @media(max-width: 900px){
   .container{
-    margin-left: 12%;
+
     width: 650px;
   } 
 
 }
 @media(max-width: 800px){
   .container{
-    margin-left: 9%;
+
     width: 600px;
     height: 400px;
   } 
@@ -662,7 +648,7 @@ video{
 }
 @media(max-width: 700px){
   .container{
-    margin-left:12%;
+
     width: 500px;
     height: 350px;
   } 
@@ -681,7 +667,7 @@ video{
 }
 @media(max-width: 600px){
   .container{
-    margin-left:15%;
+
     width: 400px;
     height: 300px;
   } 
@@ -689,7 +675,7 @@ video{
 }
 @media(max-width: 550px){
   .container{
-    margin-left:12%;
+
     width: 400px;
     height: 300px;
   } 
@@ -697,7 +683,7 @@ video{
 }
 @media(max-width: 520px){
   .container{
-    margin-left:15%;
+
     width: 350px;
     height: 250px;
   } 
@@ -713,7 +699,7 @@ video{
 }
 @media(max-width: 490px){
   .container{
-    margin-left:16%;
+
     width: 320px;
     height: 220px;
   } 
@@ -723,7 +709,7 @@ video{
 }
 @media(max-width: 450px){
   .container{
-    margin-left:14%;
+
     width: 320px;
     height: 220px;
   } 
@@ -733,7 +719,7 @@ video{
 }
 @media(max-width: 430px){
   .container{
-    margin-left:15%;
+
     width: 300px;
     height: 200px;
   } 
@@ -743,7 +729,7 @@ video{
 }
 @media(max-width: 410px){
   .container{
-    margin-left:13%;
+
     width: 300px;
     height: 200px;
   } 
