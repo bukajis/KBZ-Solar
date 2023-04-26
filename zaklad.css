@@ -2158,6 +2158,7 @@ form{
   }
   .head-logo{
     height: 45px;
+    width: 10%;
   }
   footer{
     height: 600px;
@@ -2204,7 +2205,7 @@ form{
     height:700px;
   }
   video{
-    height: 700%;
+    height: 700px;
   }
   .link-body{
     width: 40%;
@@ -2426,7 +2427,7 @@ form{
     font-size: 14px;
   }
   .head-logo{
-    width: 15%;
+    width: 12%;
   }
   footer{
     height: 470px;
