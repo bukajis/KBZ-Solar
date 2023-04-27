@@ -1150,9 +1150,35 @@ form{
 }
 @media(max-width: 1380px){
   #footer-logo {
-    width: 50%;
+    width: 50%;}
+  .link-ikona{
+ 
+    width: 25%;
+    height: 40px;
+  
+  }
+  .link-ikona-2{
+ 
+    width: 25%;
+    height: 40px;
+    margin-left: 5px;
+  }
+  .vyhody-obrazky{
+    height: 110px;
+  }
+  #domček{
+    height: 115px;
+    margin-top: 10px;
+  }
+
+  .vyhody{
+    height: 210px;
+  }
+  .text-vyhody{
+    font-size: 20px;
+  }
 }
-}
+
 @media(max-width: 1200px){
   .link-body{
     font-size: 15px;
