@@ -2003,7 +2003,11 @@ form{
   .footer-nav h2{
     margin-top: 10px;
   }
+   .footer-info p{
+    text-decoration: none;
+  }
 }
+
 
 @media(max-width: 534px){
   .parallax{
