@@ -279,7 +279,7 @@ video{
 .vyhody{
   display: flex;
   height: 300px;
-  width: 100%;
+  width: 97.5%;
   gap: 5%;
   margin-left: 2.5%;
   transition: 1s;
@@ -469,10 +469,10 @@ video{
 .onas-veci{
   display: flex;
   height: 300px;
-  width: 100%;
-  margin: 25px 10% 0px 10%;
-  gap: 10%;
-
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 }
 .onas-1{
   width: 20%;
@@ -744,13 +744,14 @@ video{
 .zamestnanci{
   display: flex;
   height: 260px;
-  width: 100%;
   gap: 3%;
-  margin-left: 6.5%;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
 }
 .zamestnanci>div{
   background: rgba(255, 255, 255, 0.8);
-  width: 15%;
+  width: 20%;
   border-radius: 100%;
 }
 footer{
@@ -1180,6 +1181,18 @@ form{
   .text-vyhody{
     font-size: 20px;
   }
+  .nadpis-onas{
+    font-size: 35px;
+  }
+  .onas-veci{
+    width: 80%;
+  }
+  .zamestnanci>div{
+    background: rgba(255, 255, 255, 0.8);
+    width: 15%;
+    border-radius: 100%;
+  }
+  
 }
 
 @media(max-width: 1200px){
@@ -1541,6 +1554,9 @@ form{
     width: 100%;
     margin-left: 0%;
   }
+  .nadpis-onas{
+    font-size: 28px;
+  }
 }
 @media(max-width: 860px){
   .nadpis-body{
@@ -1638,14 +1654,13 @@ form{
 
   .text-onas{
     font-size: 30px;
-    margin-top: -50px;
   }
   .text-onas-special{
     font-size: 30px;
-    margin-top: -15px;
+    margin-top: 35px;
   }
   .zamestnanci{
-    height: 120px;
+    height: 110px;
     margin-top: -100px;
   }
   .nadpis-zamestnanci{
@@ -1671,7 +1686,9 @@ form{
   .head-logo{
     width: 9%;
   }
-
+  .onas-veci{
+    width: 80%;
+  }
 }
 @media(max-width: 696px){
     .parallax{
@@ -1917,10 +1934,10 @@ form{
     margin-top: 0;
   }
   .zamestnanci>div{
-    width: 40%;
+    width: 34%;
     height: 220px;
     margin-top: 30px;
-    margin-left: 30%;
+    margin-left: 33%;
     
   }
   .nadpis-zamestnanci{
@@ -2003,11 +2020,7 @@ form{
   .footer-nav h2{
     margin-top: 10px;
   }
-   .footer-info p{
-    text-decoration: none;
-  }
 }
-
 
 @media(max-width: 534px){
   .parallax{
@@ -2200,6 +2213,9 @@ form{
   .footer-info{
     margin-left: 13%;
     width: 55%;
+  }
+  .footer-info p{
+    text-decoration: none;
   }
   #footer-link-tlacitko{
     width: 30%;
