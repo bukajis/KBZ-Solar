@@ -285,7 +285,8 @@ video{
   height: 300px;
   width: 100%;
   gap: 5%;
-  margin-left: 2.5%;
+  margin: 0px auto;
+  justify-content: center;
   transition: 1s;
 }
 .vyhoda-1{
