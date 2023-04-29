@@ -283,7 +283,7 @@ video{
 .vyhody{
   display: flex;
   height: 300px;
-  width: 97.5%;
+  width: 100%;
   gap: 5%;
   margin-left: 2.5%;
   transition: 1s;
