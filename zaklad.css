@@ -1105,6 +1105,9 @@ form{
     #footer-logo{
       height: 120px;
     }
+    .head-logo{
+     height: 60px;
+    }
   }
 @media(max-width: 1440px){
   
