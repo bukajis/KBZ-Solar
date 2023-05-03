@@ -135,6 +135,12 @@ li>a{
   transition: all 0.3s ease-in-out;
   background-color: white;
 }
+.kontakt-panelis{
+  width: 60%;
+  margin-top: 70px;
+  margin-left: 10%;
+  height: 30%;
+}
 @media(max-width: 1200px){
   .hamburger{
     display: block;
@@ -180,17 +186,7 @@ li>a{
     width: 100%;
   }
 }
-video{
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 700px;
-  width: 100%;
-  object-fit: cover;
-  z-index: -1;
-  justify-content:flex-start;
-}
+
 
 .parallax {
   
@@ -202,7 +198,7 @@ video{
   -webkit-background-position: center;
   -webkit-background-repeat: no-repeat;
   -webkit-background-size: cover;
-
+  background-image: url(https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -225,12 +221,15 @@ video{
   height: 100%;
   width: 100%;
   font-family: "Poppins";
-  background: #018037;
+  background: rgb(0, 4, 248);
+  border: 5px solid rgb(0, 2, 140);
   border-radius: 30px;
   z-index: 20;
+  box-shadow: 0px 0px 15px 1px  black;
 }
 .body-tlacitko:hover{
-  background: rgb(0, 4, 248);
+  background: #018037;
+  border: 5px solid #015124;
 }
 .body-tlacitko>p{
   text-decoration: none;
@@ -437,7 +436,7 @@ video{
   font-family: "Poppins";
 }
 .parallax4 {
-  background-image: url("https://images.pexels.com/photos/2705307/pexels-photo-2705307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1://images.pexels.com/photos/2867771/pexels-photo-2867771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: url("pexels-kelly-6572421.jpg");
   height: 1000px;
   width: 100%;
   background-attachment: fixed;
@@ -497,22 +496,22 @@ video{
 }
 .nadpis-onas{
   font-size: 40px;
-  color:black;
+  color:white;
   font-family: "Poppins";
-  text-shadow: 0px 2px 10px white;
+  text-shadow: 0px 2px 10px black;
   text-align: center;
 }
 .text-onas{
   font-size: 100px;
-  color:black;
+  color:white;
   font-family: "Poppins";
-  text-shadow: 0px 2px 10px white;
+  text-shadow: 0px 2px 10px black;
 }
 .text-onas-special{
   font-size: 100px;
-  color:black;
+  color:white;
   font-family: "Poppins";
-  text-shadow: 0px 2px 10px white;
+  text-shadow: 0px 2px 10px black;
 }
 .parallax5 {
   background-image: url("https://images.pexels.com/photos/3227984/pexels-photo-3227984.jpeg?auto=compress&cs=tinysrgb&w=1600");
@@ -640,7 +639,9 @@ video{
     width: 600px;
     height: 400px;
   } 
-
+  .parallax5{
+    height: 700px;
+  }
 }
 @media(max-width: 700px){
   .container{
@@ -844,7 +845,10 @@ footer{
 #footer-citko{
   height: 100%;
   width: 100%;
-  background: #018037;
+  
+    box-shadow: 0px 0px 15px 1px  black;
+    background-color:#018037;
+    border: 5px solid #015124;
   border-radius: 30px;
   text-align: center;
   font-size: 20px;
@@ -853,6 +857,7 @@ footer{
 }
 #footer-citko:hover{
   background: rgb(0, 4, 248);
+    border: 5px solid rgb(0, 2, 140);
 }
 #footer-citko>p{
   padding-top: 20px;
@@ -994,7 +999,7 @@ form{
 .kontakt-forma form input[type="submit"]{
     width: 50%;
     height:60px;
-    border: none;
+
     padding-top: 0;
     font-size: 20px;
     margin-left:25%;
@@ -1002,12 +1007,16 @@ form{
     border-radius: 20px;
     cursor: pointer;
     color: white;
-    background-color:#018037;
-    transition: background-color 300ms ease-in-out,box-shadow 300ms ease-in-out;
+    background: rgb(0, 4, 248);
+    border: 5px solid rgb(0, 2, 140);
+    border-radius: 30px;
+    z-index: 20;
+    box-shadow: 0px 0px 15px 1px  black;
 
 }
 .kontakt-forma form input[type="submit"]:hover{
-    background: rgb(0, 4, 248);
+    background-color:#018037;
+    border: 5px solid #015124;
 }
 
 @media(max-width: 1540px){
@@ -1067,9 +1076,7 @@ form{
     .parallax{
       height: 650px;
     }
-    video{
-      height: 650px;
-    }
+  
     .kontakt-forma{
       margin-top: 150px;
       height: 350px;
@@ -1090,25 +1097,28 @@ form{
     .kontakt-forma form input[type="submit"]{
       width: 40%;
       height:50px;
-      border: none;
+
       font-size: 15px;
       margin-left:30%;
       margin-top: 30px;
       border-radius: 20px;
       cursor: pointer;
       color: white;
-      transition: background-color 300ms ease-in-out,box-shadow 300ms ease-in-out;
+
     }
-    .kontakt-forma form input[type="submit"]:hover{
-      background: rgb(0, 4, 248);
-    }
+   
+    
     #footer-logo{
       height: 120px;
     }
     .head-logo{
      height: 60px;
+     margin-top: -5px;
     }
-  }
+    .parallax5{
+      height: 900px;
+    }
+}
 @media(max-width: 1440px){
   
   .nav-nadpis{
@@ -1197,7 +1207,22 @@ form{
   }
   
 }
+@media(max-width: 1200px){
+  .parallax5{
+    height: 700px;
+  }
+}
 
+@media(max-width: 600px){
+  .parallax5{
+    height: 550px;
+  }
+}
+@media(max-width: 520px){
+  .parallax5{
+    height: 500px;
+  }
+}
 @media(max-width: 1200px){
   .link-body{
     font-size: 15px;
@@ -1343,7 +1368,6 @@ form{
   .kontakt-forma form input[type="submit"]{
     width: 40%;
     height:50px;
-    border: none;
     font-size: 15px;
     margin-left:30%;
     margin-top: 30px;
@@ -1360,7 +1384,6 @@ form{
   .parallax{
     height: 550px;
   }
-  video{height: 550px;}
   .nadpis-zamestnanci{
     margin-top: -110px;
   }
@@ -1461,7 +1484,6 @@ form{
   .kontakt-forma form input[type="submit"]{
     width: 40%;
     height:35px;
-    border: none;
     font-size: 10px;
     margin-left:30%;
     margin-top: 25px;
@@ -1480,9 +1502,6 @@ form{
     margin-top: 0;
   }
   .parallax{
-    height: 480px;
-  }
-  video{
     height: 480px;
   }
   .nadpis-vyhody{
@@ -1609,7 +1628,6 @@ form{
   .kontakt-forma form input[type="submit"]{
     width: 40%;
     height:30px;
-    border: none;
     font-size: 12px;
     margin-left:30%;
     margin-top: 25px;
@@ -1719,9 +1737,7 @@ form{
     background-size: cover;
     background-attachment: initial;
   }
-  video{
-    height:700px;
-  }
+
   .nav-nadpis{
     margin-left: -5%;
   }
@@ -1777,7 +1793,7 @@ form{
   .kontakt-forma form input[type="submit"]{
     width: 40%;
     height:45px;
-    border: none;
+
     font-size: 14px;
     margin-left:30%;
     margin-top: 18px;
@@ -1789,39 +1805,35 @@ form{
     transition: background-color 300ms ease-in-out,box-shadow 300ms ease-in-out;
   }
   .vyhody{
-    display: block;
-    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 595px;
     width: 100%;
-    margin-top: -500px;
-    gap: 0;
+    column-gap: 5%;
     margin-left: 0;
   }
   .parallax2{
-    height: 1600px;
+    height: 900px;
     background-attachment: initial;
   }
   .vyhoda-1{
     height: 300px;
-    width: 50%;
-    margin-left: 25%;
+    width: 40%;
   }
   .vyhoda-2{
-    margin-top: 50px;
     height: 300px;
-    width: 50%;
-    margin-left: 25%;
+    width: 40%;
   }
   .vyhoda-3{
-    margin-top: 50px;
+  
     height: 300px;
-    width: 50%;
-    margin-left: 25%;
+    width: 40%;
   }
   .vyhoda-4{
-    margin-top: 50px;
+   
     height: 300px;
-    width: 50%;
-    margin-left: 25%;
+    width: 40%;
+
   }
   .vyhody-obrazky{
     height: 180px;
@@ -2004,14 +2016,15 @@ form{
     padding-top: 15px;
     font-size: 17px;
   }
+
   .link-ikona{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 7%;
     height: 35px;
-    margin-left: 47%;
+    margin-left: 55%;
   }
   .link-ikona-2{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 7%;
     height: 35px;
     margin-left: 2%;
@@ -2030,9 +2043,7 @@ form{
     height: 650px;
     background-attachment: initial;
   }
-  video{
-    height: 650px;
-  }
+
   .kontakt-forma{
     margin-top: 50px;
     height: 260px;
@@ -2069,7 +2080,7 @@ form{
   .kontakt-forma form input[type="submit"]{
     width: 40%;
     height:40px;
-    border: none;
+
     font-size: 12px;
     margin-left:30%;
     margin-top: 25px;
@@ -2082,36 +2093,32 @@ form{
   }
   .vyhody{
 
-    height: 600px;
+    height: 500px;
     width: 100%;
-    margin-top: -500px;
+  
 
   }
   .nadpis-vyhody{
     font-size: 30px;
   }
   .parallax2{
-    height: 1300px;
+    height: 700px;
   }
   .vyhoda-1{
-    height: 230px;
-    width: 50%;
-    margin-left: 25%;
+    height: 210px;
+    width: 40%;
   }
   .vyhoda-2{
-    height: 230px;
-    width: 50%;
-    margin-left: 25%;
+    height: 210px;
+    width: 40%;
   }
   .vyhoda-3{
-    height: 230px;
-    width: 50%;
-    margin-left: 25%;
+    height: 210px;
+    width: 40%;
   }
   .vyhoda-4{
-    height: 230px;
-    width: 50%;
-    margin-left: 25%;
+    height: 210px;
+    width: 40%;
   }
   .vyhody-obrazky{
     height: 120px;
@@ -2257,9 +2264,6 @@ form{
   .parallax{
     height:700px;
   }
-  video{
-    height: 700px;
-  }
   .link-body{
     width: 40%;
     margin-left: 30%;
@@ -2313,8 +2317,8 @@ form{
   .kontakt-forma form input[type="submit"]{
     width: 40%;
     height:40px;
-    border: none;
-    font-size: 11px;
+
+    font-size: 16px;
     margin-left:30%;
     margin-top: 25px;
 
@@ -2328,34 +2332,34 @@ form{
 
     height: 400px;
     width: 100%;
-    margin-top: -500px;
+ 
 
   }
   .nadpis-vyhody{
     font-size: 25px;
   }
   .parallax2{
-    height: 1200px;
+    height: 600px;
   }
   .vyhoda-1{
-    height: 210px;
-    width: 50%;
-    margin-left: 25%;
+    height: 190px;
+    width: 40%;
+
   }
   .vyhoda-2{
-    height: 210px;
-    width: 50%;
-    margin-left: 25%;
+    height: 190px;
+    width: 40%;
+
   }
   .vyhoda-3{
-    height: 210px;
-    width: 50%;
-    margin-left: 25%;
+    height: 190px;
+    width: 40%;
+  
   }
   .vyhoda-4{
-    height: 210px;
-    width: 50%;
-    margin-left: 25%;
+    height: 190px;
+    width: 40%;
+  
   }
   .vyhody-obrazky{
     height: 100px;
@@ -2498,13 +2502,13 @@ form{
     margin-left: -5%;
   }
   .link-ikona{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 8%;
     height: 25px;
   
   }
   .link-ikona-2{
-    margin-top: 10px;
+    margin-top: 20px;
     width: 8%;
     height: 25px;
     margin-left: 5px;
@@ -2519,20 +2523,28 @@ form{
       height: 130px;
     }
     .vyhoda-1{
-      height: 190px;
-      margin-top: 20px;
+      height: 180px;
     }
     .vyhoda-2{
-      height: 190px;
+      height: 180px;
+    }
+    .vyhody-obrazky{
+      height: 80px;
+    }
+    #domček{
+      height: 90px;
+    }
+    .vyhoda-3 > div{
+      margin-top: 10px;
     }
     .vyhoda-3{
-      height: 190px;
+      height: 180px;
     }
     .vyhoda-4{
-      height: 190px;
+      height: 180px;
     }
     .parallax2{
-      height: 1150px;
+      height: 550px;
     }
 }
 @media(max-width: 371px){
@@ -2582,8 +2594,8 @@ form{
   .kontakt-forma form input[type="submit"]{
     width: 40%;
     height:40px;
-    border: none;
-    font-size: 11px;
+   
+    font-size: 14px;
     margin-left:30%;
     margin-top: 25px;
 
@@ -2597,44 +2609,40 @@ form{
     font-size: 22px;
   }
   .parallax2{
-    height: 1100px;
+    height: 600px;
   }
   .nadpis-vyhody{
     font-size: 25px;
   }
   .vyhody{
     height: 400px;
-    margin-top: -480px;
+
   }
   .vyhoda-1{
-    height: 180px;
-    width: 50%;
-    margin-left: 25%;
+    height: 160px;
+   
   }
   .vyhoda-2{
-    height: 180px;
-    width: 50%;
-    margin-left: 25%;
+    height: 160px;
+ 
   }
   .vyhoda-3{
-    height: 180px;
-    width: 50%;
-    margin-left: 25%;
+    height: 160px;
+
   }
   .vyhoda-4{
-    height: 180px;
-    width: 50%;
-    margin-left: 25%;
+    height: 160px;
+ 
   }
   .vyhody-obrazky{
-    height: 85px;
+    height: 70px;
     margin-top: 30px;
   }
   .text-vyhody{
     font-size: 14px;
   }
   #domček{
-    height: 110px;
+    height: 80px;
     margin-top: 10px;
   }
   .ponuka{
@@ -2931,7 +2939,7 @@ form{
   font-family: "Poppins";
   width: 70%;
   margin-left: 15%;
-  margin-top:280px;
+  margin-top:100px;
 }
 .prava{
   width: 50%;
@@ -3054,6 +3062,9 @@ textarea{
   .pozadie-kon{
     height: 1500px;
   }
+  .kontakt-panelis{
+    display: none;
+  }
   .form-kon input{
     outline: none;
     margin-right: 0px;
@@ -3077,7 +3088,7 @@ textarea{
     height:50px;
     border: none;
     padding-top:5px;
-    font-size: 20px;
+    font-size: 25px;
     margin-left:1%;
     margin-top: 30px;
     border-radius: 20px;
@@ -3112,12 +3123,6 @@ textarea{
   .nadpis-kon{
     width: 100%;
     font-size: 35px;
-    margin-top: 20px;
-  }
-  #domček{
-    height: 100px;
-  }
-  .vyhoda-3>.text-vyhody{
     margin-top: 20px;
   }
 }
