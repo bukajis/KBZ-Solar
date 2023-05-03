@@ -52,8 +52,6 @@
 </header>
 <script src="zaklad.js"></script>
 <div class="parallax" id="Uvod">
-  <video id="myVideo" autoplay muted loop playsinline >
-    <source src="finaly.mp4" type="video/mp4" ></video>
   <div class="uvod-body">
   <div class="nadpis-body" data-aos="fade-up">
     Investujte do budúcnosti,<br> využite silu slnka.
@@ -70,7 +68,7 @@
         <input required type="text"  name="name" class="meno" placeholder="Meno"> <br>
         <input required type="text"  name="surname" class="priezvisko" placeholder="Priezvisko"><br>
       </div>
-        <input required type="tel"  name="number" class="number" placeholder="Telefónne číslo"><br>
+        <input required type="tel"  name="number" class="number" value="+421 "><br>
         <input required type="email"  name="email" placeholder="Email"><br>
         <input type="submit" name="submit" value="Poslať">
     </form>
@@ -83,7 +81,7 @@
     Výhody solárnej elektriny:
   </div>
   <div class="vyhody" >
-  <div class="vyhoda-1" data-aos="fade-right">
+  <div data-aos="fade-right" class="vyhoda-1" >
     <img src="solar-energy.png" alt="solar solar-energy" class="vyhody-obrazky">
     <div class="text-vyhody" class="prva-vyhoda">Vlastný zdroj energie</div>
   </div>
