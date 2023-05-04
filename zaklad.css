@@ -1181,15 +1181,27 @@ form{
     margin-left: 5px;
   }
   .vyhody-obrazky{
-    height: 110px;
+    height: 130px;
   }
   #domček{
-    height: 115px;
+    height: 140px;
     margin-top: 10px;
   }
 
   .vyhody{
     height: 210px;
+  }
+  .vyhoda-1{
+    height: 220px;
+  }
+  .vyhoda-2{
+    height: 220px;
+  }
+  .vyhoda-3{
+    height: 220px;
+  }
+  .vyhoda-4{
+    height: 220px;
   }
   .text-vyhody{
     font-size: 20px;
@@ -1424,6 +1436,18 @@ form{
     font-size: 15px;
    
   }
+  .vyhoda-1{
+    height: 190px;
+  }
+  .vyhoda-2{
+    height: 190px;
+  }
+  .vyhoda-3{
+    height: 190px;
+  }
+  .vyhoda-4{
+    height: 190px;
+  }
   .ponuka-obrazok{
     height: 220px;
   }
@@ -1462,24 +1486,24 @@ form{
   }
   .kontakt-forma form input[type="email"]{
     height: 10px;
-    font-size: 12px;
+    font-size: 20px;
   }
   .number{
     height: 10px;
-    font-size: 12px;
+    font-size: 20px;
   }
   .meno{
     height: 15px;
-    font-size: 12px;
+    font-size: 17px;
     width: 29.3%;
   }
   .priezvisko{
     height: 15px;
-    font-size: 12px;
+    font-size: 17px;
     width: 29.3%;
   }
   .kontakt-opis{
-    font-size: 10px;
+    font-size: 15px;
   }
   .kontakt-forma form input[type="submit"]{
     width: 40%;
@@ -1593,16 +1617,16 @@ form{
   }
   .kontakt-forma form input[type="email"]{
     height: 7px;
-    font-size: 10px;
+    font-size: 15px;
   }
   .number{
     height: 7px;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 0;
   }
   .meno{
     height: 7px;
-    font-size: 10px;
+    font-size: 15px;
     width: 29%;
   }
   .link-ikona{
@@ -1619,7 +1643,7 @@ form{
   }
   .priezvisko{
     height: 7px;
-    font-size: 10px;
+    font-size: 15px;
     width: 29%;
   }
   .kontakt-opis{
@@ -1641,11 +1665,9 @@ form{
     height: 170px;
   }
   .vyhody-obrazky{
-    height: 70px;
+    height: 100px;
   }
-  #domček{
-    height: 80px;
-  }
+
   .text-vyhody{
     font-size: 15px;
   }
@@ -1812,37 +1834,38 @@ form{
     column-gap: 5%;
     margin-left: 0;
   }
+
   .parallax2{
     height: 900px;
     background-attachment: initial;
   }
   .vyhoda-1{
-    height: 300px;
+    height: 270px;
     width: 40%;
   }
   .vyhoda-2{
-    height: 300px;
+    height: 270px;
     width: 40%;
   }
   .vyhoda-3{
   
-    height: 300px;
+    height: 270px;
     width: 40%;
   }
   .vyhoda-4{
    
-    height: 300px;
+    height: 270px;
     width: 40%;
 
   }
   .vyhody-obrazky{
-    height: 180px;
+    height: 160px;
   }
   .text-vyhody{
     font-size: 25px;
   }
   #domček{
-    height: 190px;
+    height: 170px;
   }
   .ponuka{
     display: block;
@@ -2517,6 +2540,33 @@ form{
     margin-top: 30px;
   }
   
+}
+@media(max-width: 415px){
+  .vyhody{
+    height: 400px;
+  }
+  .vyhoda-1{
+    height: 170px;
+  }
+  .vyhoda-2{
+    height: 170px;
+  }
+  .vyhoda-3{
+    height: 170px;
+  }
+  .vyhoda-4{
+    height: 170px;
+  }
+  #domček{
+    height: 95px;
+  }
+  .vyhody-obrazky{
+    height: 85px;
+    margin-top: 15px;
+  }
+  .zamestnanci>div{
+    height: 130px;
+  }
 }
 @media(max-width: 390px){
     .zamestnanci>div{
